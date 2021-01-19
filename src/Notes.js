@@ -11,7 +11,7 @@ class Notes extends Component {
         return (
             <div className="NoteSet">
             {notes.map(note => {
-                return <li>
+                return <li key={note.id}>
                     <Link
                 to={`/note/${note.id}`}
                 >
