@@ -4,15 +4,26 @@ import MainSidebar from './MainSidebar';
 import { Route  } from 'react-router-dom';
 import SideBar from './SideBar';
 import Header from './Header';
+import SidebarFolders from './SidebarFolders';
+import Main from './Main';
+import Note from './Note';
 
-class App extends Component() {
+
+class App extends Component {
   render(){
   return (
     <div>
       <Header></Header>
     <SideBar>
-      <Route path='/' component={MainSidebar} />
+      <Route exact path='/' component={MainSidebar} />
+      <Route path='/folder/:folderId' 
+      component={SidebarFolders} />
     </SideBar>
+    <Main>
+      <Route exact path='/' component={Main} />
+      <Route path='/note/:noteId' 
+      component={Note} />
+    </Main>
   </div>
   );
   }
