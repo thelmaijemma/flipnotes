@@ -12,7 +12,7 @@ const note = notes.find(n =>
         return (
             <div>
                 <div>
-                    <h2>note.title</h2>
+                    <h2>{note.title}</h2>
                 </div>
                 {note.content}
             </div>
