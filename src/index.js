@@ -6,7 +6,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import { BrowserRouter } from 'react-router-dom'
 import './index.css'
-import App from './App'
+import App from './App/App'
 
 library.add(faPlus, faChevronLeft, faTrashAlt, faCheckDouble)
 
