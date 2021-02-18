@@ -1,1 +1,1 @@
-This will be a quick loading full stack React (router) app to allow users access create text pages they can parse with infitinite dividers - "folders". Uses: similar to - a4 paper wallets, bullet journals 
+This will be a quick loading full stack React (router) interface to allow users access and create text or visual spaces they can parse with infitinite dividers - "folders". Uses: similar to - a4 paper wallets, bullet journals 
